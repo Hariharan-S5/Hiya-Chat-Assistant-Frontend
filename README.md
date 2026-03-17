@@ -37,6 +37,7 @@ Hiya Chat Assistant Frontend is a modern, user-friendly interface for an AI-powe
 - **Styling:** CSS, CSS Modules
 - **API:** RESTful communication
 - **Build Tool:** Vite
+- **Deployment:** Static hosting (e.g., Vercel, Netlify)
 
 ---
 
@@ -109,20 +110,7 @@ signInWithPopup(auth, provider)
 	});
 ```
 
-## Firebase configuration
 
-Update `src/firebase.js` to use these variables.
-```.js
-VITE_FIREBASE_API_KEY=your_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
-```
-
-
----
 
 <!-- INSTALLATION GUIDE -->
 ## Installation Guide
@@ -136,8 +124,21 @@ VITE_FIREBASE_APP_ID=your_app_id
 	 ```bash
 	 npm install
 	 ```
-3. **Set up environment variables:**
-	 - See [Environment Variables Setup](#environment-variables-setup)
+---
+
+## Firebase configuration
+
+Update `src/firebase.js` to use these variables.
+```.js
+apiKey=your_api_key
+authDomain=your_auth_domain
+projectId=your_project_id
+storageBucket=your_storage_bucket
+messagingSenderId=your_sender_id
+appId=your_app_id
+measurementId = your_measurement_id
+```
+
 
 ---
 
@@ -153,19 +154,7 @@ Open your browser and navigate to [http://localhost:5173](http://localhost:5173)
 
 ---
 
-<!-- ENVIRONMENT VARIABLES SETUP -->
-## Environment Variables Setup
 
-Create a `.env` file in the project root. Example:
-```env
-VITE_API_URL=https://your-backend-api.com
-VITE_FIREBASE_CONFIG={...}
-```
-
-- `VITE_API_URL`: Backend API endpoint for chat assistant
-- `VITE_FIREBASE_CONFIG`: Firebase configuration object (if used)
-
----
 
 <!-- FRONTEND APPLICATION FLOW -->
 ## Frontend Application Flow
