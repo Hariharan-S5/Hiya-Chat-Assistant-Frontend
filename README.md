@@ -116,7 +116,7 @@ signInWithPopup(auth, provider)
 
 1. **Clone the repository:**
 	 ```bash
-	 git clone gh repo clone Hariharan-S5/Hiya-Chat-Assistant-Frontend
+	 git clone https://github.com/Hariharan-S5/Hiya-Chat-Assistant-Frontend.git
 	 cd Hiya-Chat-Assistant-Frontend
 	 ```
 2. **Install dependencies:**
