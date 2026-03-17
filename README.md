@@ -37,7 +37,6 @@ Hiya Chat Assistant Frontend is a modern, user-friendly interface for an AI-powe
 - **Styling:** CSS, CSS Modules
 - **API:** RESTful communication
 - **Build Tool:** Vite
-- **Deployment:** Static hosting (e.g., Vercel, Netlify)
 
 ---
 
