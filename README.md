@@ -44,16 +44,16 @@ Hiya Chat Assistant Frontend is a modern, user-friendly interface for an AI-powe
 ## Project Architecture
 
 ```
-	[User Interface]
+	    [User Interface]
 				|
 				v
-	[Application Logic]
+	    [Application Logic]
 				|
 				v
-	[API Communication]
+	    [API Communication]
 				|
 				v
-	[Backend API]
+	      [Backend API]
 ```
 
 ---
@@ -116,8 +116,8 @@ signInWithPopup(auth, provider)
 
 1. **Clone the repository:**
 	 ```bash
-	 git clone https://github.com/your-org/hiya-chat-assistant-frontend.git
-	 cd hiya-chat-assistant-frontend
+	 git clone gh repo clone Hariharan-S5/Hiya-Chat-Assistant-Frontend
+	 cd Hiya-Chat-Assistant-Frontend
 	 ```
 2. **Install dependencies:**
 	 ```bash
