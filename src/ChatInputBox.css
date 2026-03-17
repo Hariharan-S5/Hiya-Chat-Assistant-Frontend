@@ -1,0 +1,88 @@
+/* Error message and refresh button styles */
+.chat-error-message {
+    margin: 0.5rem 0 0 1.5rem;
+    color: #dd1d1d8f;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+/* Refresh icon styles */
+.chat-refresh-icon {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  transition: opacity 0.2s;
+  transform: rotate(142deg);
+}
+/* Spinner styles */
+.chat-spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #4f8cff;
+  border-top: 3px solid #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.chat-input-box {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  border: #d6d6d6 1px solid;
+}
+
+
+
+.chat-input-field {
+  flex: 1;
+  margin: 0rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: none;
+  font-size: 0.89rem;
+  color: #4a4242;
+  background: transparent;
+}
+
+.chat-input-field:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+.chat-input-field::placeholder {
+  font-size: 0.89rem;
+}
+
+
+
+.chat-send-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: transparent;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.7rem 1.4rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 1px;
+
+}
